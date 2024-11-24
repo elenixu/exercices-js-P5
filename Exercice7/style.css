@@ -60,7 +60,7 @@ section {
     align-items: center;
   }
   nav li {
-    margin-right: 0px; /* Set to 0px on mobile */
-    margin-bottom: 10px; /* Add spacing between items when stacked */
+    margin-right: 0px;
+    margin-bottom: 10px;
   }
 }
