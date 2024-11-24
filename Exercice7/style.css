@@ -1,69 +1,66 @@
 /* Styles généraux */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
 }
 
 /* Styles du header */
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
 }
 
 h1 {
-    font-size: 30px;
-    margin: 0;
+  font-size: 30px;
+  margin: 0;
 }
 
 nav {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
+  list-style: none;
+  padding: 0;
+  display: flex;
 }
 
 nav li {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 nav li:last-child {
-    margin-right: 0;
+  margin-right: 0;
 }
 
 nav a {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 /* Styles du main */
 main {
-    padding: 20px;
+  padding: 20px;
 }
 
 section {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
-
 @media (max-width: 768px) {
-
-    h1 {
-        font-size: 20px;
-    }
-
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    nav li {
-        margin: 10px ; 
-    }
+  h1 {
+    font-size: 20px;
+  }
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  nav li {
+    margin-right: 0px; /* Set to 0px on mobile */
+    margin-bottom: 10px; /* Add spacing between items when stacked */
+  }
 }

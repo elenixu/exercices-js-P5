@@ -1,5 +1,9 @@
+main {
+  display: flex;
+}
+
 .text-style {
-    color: blue;
-    font-family: arial;
-    font-size: 16px;
+  color: blue;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
 }

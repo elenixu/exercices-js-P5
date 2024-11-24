@@ -13,4 +13,4 @@ console.log(checkAge(15))
 console.log(checkAge(30))
 console.log(checkAge(75))
 
-export default checkAge
+//export default checkAge
